@@ -50,7 +50,6 @@ angular.module('mc', ['ionic', 'mc.controllers', 'mc.services', 'mc.config'])
     views: {
       'menuContent': {
         templateUrl: 'templates/about.html',
-        controller: 'AppCtrl'
       }
     }
   });
