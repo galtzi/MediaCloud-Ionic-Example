@@ -42,6 +42,17 @@ angular.module('mc', ['ionic', 'mc.controllers', 'mc.services', 'mc.config'])
         controller: 'SearchCtrl'
       }
     }
+  })
+ 
+    .state('app.about', {
+    cache: false,
+    url: '/app/about',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/about.html',
+        controller: 'AppCtrl'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback
